@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn English Easily - Fun & Professional</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">EnglishPro</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#modules" class="nav-link">Courses</a>
+                <a href="#live-classes" class="nav-link">Live Classes</a>
+                <a href="#subscription" class="nav-link">Pricing</a>
+                <a href="#dashboard" class="nav-link">Dashboard</a>
+                <a href="#" class="nav-link login-btn">Login</a>
+                <a href="#" class="nav-link signup-btn">Sign Up</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Learn English Easily – <span>Fun & Professional</span></h1>
+                <p>Master English speaking with our interactive courses designed for kids and professionals. Build confidence, improve pronunciation, and excel in your career.</p>
+                <div class="hero-buttons">
+                    <button class="btn-primary">Start Learning</button>
+                    <button class="btn-secondary">View Modules</button>
+                    <button class="btn-accent">Subscribe Now</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Students learning English">
+            </div>
+        </div>
+    </section>
+
+    <!-- Tutor Introduction -->
+    <section class="tutor-section">
+        <div class="container">
+            <h2 class="section-title">Meet Your English Tutor</h2>
+            <div class="tutor-profile">
+                <div class="tutor-image">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" alt="Tutor">
+                </div>
+                <div class="tutor-info">
+                    <h3>David Wilson</h3>
+                    <p class="tutor-designation">Senior English Language Coach</p>
+                    <p class="tutor-experience">12+ years of experience teaching English to students and professionals worldwide</p>
+                    <p class="tutor-bio">David specializes in accent reduction, business communication, and conversational English. His fun, engaging teaching style makes learning enjoyable for all ages.</p>
+                    <div class="tutor-stats">
+                        <div class="stat">
+                            <span class="stat-number">5000+</span>
+                            <span class="stat-label">Students Taught</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Success Rate</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">4.9</span>
+                            <span class="stat-label">Rating</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Modules -->
+    <section id="modules" class="modules-section">
+        <div class="container">
+            <h2 class="section-title">English Learning Modules</h2>
+            <p class="section-subtitle">Progress from beginner to advanced with our structured curriculum</p>
+            
+            <div class="module-tabs">
+                <button class="tab-btn active" data-tab="beginner">Beginner</button>
+                <button class="tab-btn" data-tab="intermediate">Intermediate</button>
+                <button class="tab-btn" data-tab="advanced">Advanced</button>
+            </div>
+            
+            <div class="module-content">
+                <div class="tab-pane active" id="beginner">
+                    <div class="module-card">
+                        <div class="module-header">
+                            <h3>Beginner English</h3>
+                            <span class="progress">Progress: <span class="progress-value">30%</span></span>
+                        </div>
+                        <div class="module-lessons">
+                            <div class="lesson">
+                                <div class="lesson-icon">
+                                    <i class="fas fa-play-circle"></i>
+                                </div>
+                                <div class="lesson-info">
+                                    <h4>Basic Greetings & Introductions</h4>
+                                    <p>Learn how to introduce yourself and greet others</p>
+                                </div>
+                                <div class="lesson-status completed">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                            </div>
+                            <div class="lesson">
+                                <div class="lesson-icon">
+                                    <i class="fas fa-play-circle"></i>
+                                </div>
+                                <div class="lesson-info">
+                                    <h4>Everyday Vocabulary</h4>
+                                    <p>Essential words for daily conversations</p>
+                                </div>
+                                <div class="lesson-status completed">
+                                    <i class="fas fa-check"></i>
+                                </div>
+                            </div>
+                            <div class="lesson">
+                                <div class="lesson-icon">
+                                    <i class="fas fa-play-circle"></i>
+                                </div>
+                                <div class="lesson-info">
+                                    <h4>Simple Sentence Structure</h4>
+                                    <p>Form basic sentences with correct grammar</p>
+                                </div>
+                                <div class="lesson-status in-progress">
+                                    <i class="fas fa-sync-alt"></i>
+                                </div>
+                            </div>
+                            <div class="lesson">
+                                <div class="lesson-icon">
+                                    <i class="fas fa-play-circle"></i>
+                                </div>
+                                <div class="lesson-info">
+                                    <h4>Pronunciation Basics</h4>
+                                    <p>Master the sounds of English letters</p>
+                                </div>
+                                <div class="lesson-status locked">
+                                    <i class="fas fa-lock"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="module-actions">
+                            <button class="btn-primary">Continue Learning</button>
+                            <button class="btn-outline">Take Quiz</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-pane" id="intermediate">
+                    <div class="module-card">
+                        <div class="module-header">
+                            <h3>Intermediate English</h3>
+                            <span class="progress">Progress: <span class="progress-value">0%</span></span>
+                        </div>
+                        <p class="locked-message">Complete Beginner level to unlock Intermediate content</p>
+                    </div>
+                </div>
+                
+                <div class="tab-pane" id="advanced">
+                    <div class="module-card">
+                        <div class="module-header">
+                            <h3>Advanced English</h3>
+                            <span class="progress">Progress: <span class="progress-value">0%</span></span>
+                        </div>
+                        <p class="locked-message">Complete Intermediate level to unlock Advanced content</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Classes -->
+    <section id="live-classes" class="live-classes-section">
+        <div class="container">
+            <h2 class="section-title">Live Classes</h2>
+            <p class="section-subtitle">Join interactive sessions with our expert tutors</p>
+            
+            <div class="live-classes-container">
+                <div class="video-container">
+                    <div class="video-placeholder">
+                        <i class="fas fa-video"></i>
+                        <p>Live class will appear here at scheduled time</p>
+                    </div>
+                </div>
+                
+                <div class="schedule-container">
+                    <h3>Upcoming Classes</h3>
+                    <div class="schedule-list">
+                        <div class="schedule-item">
+                            <div class="schedule-date">
+                                <span class="day">Mon</span>
+                                <span class="date">15</span>
+                            </div>
+                            <div class="schedule-info">
+                                <h4>Business English for Sales</h4>
+                                <p><i class="far fa-clock"></i> 10:00 AM - 11:00 AM</p>
+                            </div>
+                            <button class="btn-primary">Book Now</button>
+                        </div>
+                        <div class="schedule-item">
+                            <div class="schedule-date">
+                                <span class="day">Tue</span>
+                                <span class="date">16</span>
+                            </div>
+                            <div class="schedule-info">
+                                <h4>Kids English - Story Time</h4>
+                                <p><i class="far fa-clock"></i> 3:00 PM - 4:00 PM</p>
+                            </div>
+                            <button class="btn-primary">Book Now</button>
+                        </div>
+                        <div class="schedule-item">
+                            <div class="schedule-date">
+                                <span class="day">Wed</span>
+                                <span class="date">17</span>
+                            </div>
+                            <div class="schedule-info">
+                                <h4>Pronunciation Practice</h4>
+                                <p><i class="far fa-clock"></i> 11:00 AM - 12:00 PM</p>
+                            </div>
+                            <button class="btn-primary">Book Now</button>
+                        </div>
+                    </div>
+                    
+                    <div class="calendar-container">
+                        <h3>Class Calendar</h3>
+                        <div class="calendar">
+                            <div class="calendar-header">
+                                <button class="calendar-nav"><i class="fas fa-chevron-left"></i></button>
+                                <span class="calendar-month">September 2023</span>
+                                <button class="calendar-nav"><i class="fas fa-chevron-right"></i></button>
+                            </div>
+                            <div class="calendar-weekdays">
+                                <div>Sun</div>
+                                <div>Mon</div>
+                                <div>Tue</div>
+                                <div>Wed</div>
+                                <div>Thu</div>
+                                <div>Fri</div>
+                                <div>Sat</div>
+                            </div>
+                            <div class="calendar-days">
+                                <!-- Calendar days would be generated by JavaScript -->
+                                <div class="day other-month">27</div>
+                                <div class="day other-month">28</div>
+                                <div class="day other-month">29</div>
+                                <div class="day other-month">30</div>
+                                <div class="day other-month">31</div>
+                                <div class="day">1</div>
+                                <div class="day">2</div>
+                                <div class="day">3</div>
+                                <div class="day">4</div>
+                                <div class="day">5</div>
+                                <div class="day">6</div>
+                                <div class="day">7</div>
+                                <div class="day">8</div>
+                                <div class="day">9</div>
+                                <div class="day">10</div>
+                                <div class="day">11</div>
+                                <div class="day">12</div>
+                                <div class="day">13</div>
+                                <div class="day">14</div>
+                                <div class="day has-class">15</div>
+                                <div class="day has-class">16</div>
+                                <div class="day has-class">17</div>
+                                <div class="day">18</div>
+                                <div class="day">19</div>
+                                <div class="day">20</div>
+                                <div class="day">21</div>
+                                <div class="day">22</div>
+                                <div class="day">23</div>
+                                <div class="day">24</div>
+                                <div class="day">25</div>
+                                <div class="day">26</div>
+                                <div class="day">27</div>
+                                <div class="day">28</div>
+                                <div class="day">29</div>
+                                <div class="day">30</div>
+                                <div class="day other-month">1</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Subscription Plans -->
+    <section id="subscription" class="subscription-section">
+        <div class="container">
+            <h2 class="section-title">Choose Your Plan</h2>
+            <p class="section-subtitle">Unlock all features with our flexible subscription options</p>
+            
+            <div class="plans-container">
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>Monthly</h3>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">999</span>
+                            <span class="period">/month</span>
+                        </div>
+                    </div>
+                    <div class="plan-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Access to all courses</li>
+                            <li><i class="fas fa-check"></i> 4 live classes per month</li>
+                            <li><i class="fas fa-check"></i> Practice exercises</li>
+                            <li><i class="fas fa-check"></i> Progress tracking</li>
+                            <li><i class="fas fa-times"></i> Certificate of completion</li>
+                            <li><i class="fas fa-times"></i> Priority support</li>
+                        </ul>
+                    </div>
+                    <button class="btn-primary">Subscribe Now</button>
+                </div>
+                
+                <div class="plan-card featured">
+                    <div class="plan-badge">Most Popular</div>
+                    <div class="plan-header">
+                        <h3>Quarterly</h3>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">2,499</span>
+                            <span class="period">/3 months</span>
+                        </div>
+                        <p class="plan-savings">Save 17%</p>
+                    </div>
+                    <div class="plan-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Access to all courses</li>
+                            <li><i class="fas fa-check"></i> 15 live classes</li>
+                            <li><i class="fas fa-check"></i> Practice exercises</li>
+                            <li><i class="fas fa-check"></i> Progress tracking</li>
+                            <li><i class="fas fa-check"></i> Certificate of completion</li>
+                            <li><i class="fas fa-times"></i> Priority support</li>
+                        </ul>
+                    </div>
+                    <button class="btn-accent">Subscribe Now</button>
+                </div>
+                
+                <div class="plan-card">
+                    <div class="plan-header">
+                        <h3>Yearly</h3>
+                        <div class="plan-price">
+                            <span class="currency">₹</span>
+                            <span class="amount">8,999</span>
+                            <span class="period">/year</span>
+                        </div>
+                        <p class="plan-savings">Save 25%</p>
+                    </div>
+                    <div class="plan-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Access to all courses</li>
+                            <li><i class="fas fa-check"></i> 60 live classes</li>
+                            <li><i class="fas fa-check"></i> Practice exercises</li>
+                            <li><i class="fas fa-check"></i> Progress tracking</li>
+                            <li><i class="fas fa-check"></i> Certificate of completion</li>
+                            <li><i class="fas fa-check"></i> Priority support</li>
+                        </ul>
+                    </div>
+                    <button class="btn-primary">Subscribe Now</button>
+                </div>
+            </div>
+            
+            <div class="payment-methods">
+                <h3>Secure Payment Methods</h3>
+                <div class="payment-icons">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <i class="fas fa-university"></i>
+                    <i class="fas fa-mobile-alt"></i>
+                </div>
+                <p>UPI, Cards, Netbanking accepted</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- User Dashboard -->
+    <section id="dashboard" class="dashboard-section">
+        <div class="container">
+            <h2 class="section-title">Your Learning Dashboard</h2>
+            
+            <div class="dashboard-container">
+                <div class="dashboard-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-book-open"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Courses in Progress</h3>
+                            <span class="stat-value">2</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Overall Progress</h3>
+                            <span class="stat-value">30%</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Upcoming Classes</h3>
+                            <span class="stat-value">3</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Certificates Earned</h3>
+                            <span class="stat-value">1</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="dashboard-content">
+                    <div class="dashboard-card">
+                        <h3>Current Courses</h3>
+                        <div class="course-progress">
+                            <div class="course-item">
+                                <h4>Beginner English</h4>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 30%"></div>
+                                </div>
+                                <span class="progress-text">30% Complete</span>
+                            </div>
+                            <div class="course-item">
+                                <h4>Business Communication</h4>
+                                <div class="progress-bar">
+                                    <div class="progress-fill" style="width: 10%"></div>
+                                </div>
+                                <span class="progress-text">10% Complete</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="dashboard-card">
+                        <h3>Upcoming Live Classes</h3>
+                        <div class="upcoming-classes">
+                            <div class="class-item">
+                                <div class="class-date">
+                                    <span class="month">Sep</span>
+                                    <span class="day">15</span>
+                                </div>
+                                <div class="class-info">
+                                    <h4>Business English for Sales</h4>
+                                    <p><i class="far fa-clock"></i> 10:00 AM - 11:00 AM</p>
+                                </div>
+                                <button class="btn-outline">Join Class</button>
+                            </div>
+                            <div class="class-item">
+                                <div class="class-date">
+                                    <span class="month">Sep</span>
+                                    <span class="day">16</span>
+                                </div>
+                                <div class="class-info">
+                                    <h4>Kids English - Story Time</h4>
+                                    <p><i class="far fa-clock"></i> 3:00 PM - 4:00 PM</p>
+                                </div>
+                                <button class="btn-outline">Join Class</button>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="dashboard-card">
+                        <h3>Recent Certificates</h3>
+                        <div class="certificates">
+                            <div class="certificate-item">
+                                <div class="certificate-icon">
+                                    <i class="fas fa-certificate"></i>
+                                </div>
+                                <div class="certificate-info">
+                                    <h4>Basic English Conversation</h4>
+                                    <p>Completed on August 28, 2023</p>
+                                </div>
+                                <button class="btn-outline">View</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Features -->
+    <section class="interactive-section">
+        <div class="container">
+            <h2 class="section-title">Practice Your English</h2>
+            
+            <div class="interactive-container">
+                <div class="chatbot-container">
+                    <h3>AI English Practice Bot</h3>
+                    <div class="chatbot">
+                        <div class="chatbot-header">
+                            <div class="chatbot-avatar">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                            <div class="chatbot-info">
+                                <h4>English Tutor Bot</h4>
+                                <p>Online</p>
+                            </div>
+                        </div>
+                        <div class="chatbot-messages" id="chatbot-messages">
+                            <div class="message bot-message">
+                                <p>Hello! I'm your English practice assistant. How can I help you improve your English today?</p>
+                            </div>
+                        </div>
+                        <div class="chatbot-input">
+                            <input type="text" id="chat-input" placeholder="Type your message in English...">
+                            <button id="send-message"><i class="fas fa-paper-plane"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="practice-tools">
+                    <div class="tool-card">
+                        <h3>Daily Vocabulary Challenge</h3>
+                        <div class="vocabulary-quiz">
+                            <div class="quiz-question">
+                                <p>What is the meaning of "perseverance"?</p>
+                            </div>
+                            <div class="quiz-options">
+                                <button class="quiz-option">Giving up easily</button>
+                                <button class="quiz-option">Continuing despite difficulties</button>
+                                <button class="quiz-option">Being lazy</button>
+                                <button class="quiz-option">Making quick decisions</button>
+                            </div>
+                            <div class="quiz-result hidden">
+                                <p class="correct-answer">Correct! "Perseverance" means continuing despite difficulties.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tool-card">
+                        <h3>Pronunciation Practice</h3>
+                        <div class="pronunciation-tool">
+                            <div class="word-to-pronounce">
+                                <span id="word-display">entrepreneur</span>
+                                <button id="listen-btn"><i class="fas fa-volume-up"></i></button>
+                            </div>
+                            <p>Click the speaker icon to hear the pronunciation</p>
+                            <div class="word-list">
+                                <button class="word-item" data-word="entrepreneur">entrepreneur</button>
+                                <button class="word-item" data-word="schedule">schedule</button>
+                                <button class="word-item" data-word="pronunciation">pronunciation</button>
+                                <button class="word-item" data-word="mischievous">mischievous</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Community Forum -->
+    <section class="community-section">
+        <div class="container">
+            <h2 class="section-title">English Learning Community</h2>
+            <p class="section-subtitle">Connect with fellow learners and practice together</p>
+            
+            <div class="community-container">
+                <div class="forum-sidebar">
+                    <h3>Discussion Topics</h3>
+                    <ul class="forum-topics">
+                        <li class="active"><a href="#">General English</a></li>
+                        <li><a href="#">Business English</a></li>
+                        <li><a href="#">Grammar Questions</a></li>
+                        <li><a href="#">Pronunciation Help</a></li>
+                        <li><a href="#">Writing Practice</a></li>
+                        <li><a href="#">Kids Corner</a></li>
+                    </ul>
+                    
+                    <div class="tutor-tip">
+                        <h4>Teacher's Tip of the Day</h4>
+                        <p>"Practice speaking English for 10 minutes every day. Consistency is more important than long study sessions!"</p>
+                        <span class="tip-author">- David Wilson</span>
+                    </div>
+                </div>
+                
+                <div class="forum-main">
+                    <div class="forum-header">
+                        <h3>Recent Discussions</h3>
+                        <button class="btn-primary">New Topic</button>
+                    </div>
+                    
+                    <div class="forum-posts">
+                        <div class="forum-post">
+                            <div class="post-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="post-content">
+                                <div class="post-header">
+                                    <h4>How to improve business vocabulary?</h4>
+                                    <span class="post-date">2 hours ago</span>
+                                </div>
+                                <p>I work in sales and need to improve my business English vocabulary. Any suggestions for resources or techniques?</p>
+                                <div class="post-meta">
+                                    <span><i class="far fa-comment"></i> 5 replies</span>
+                                    <span><i class="far fa-eye"></i> 24 views</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="forum-post">
+                            <div class="post-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="post-content">
+                                <div class="post-header">
+                                    <h4>Difference between "affect" and "effect"?</h4>
+                                    <span class="post-date">5 hours ago</span>
+                                </div>
+                                <p>Can someone explain the difference between these two words? I always get confused about when to use each one.</p>
+                                <div class="post-meta">
+                                    <span><i class="far fa-comment"></i> 3 replies</span>
+                                    <span><i class="far fa-eye"></i> 18 views</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="forum-post">
+                            <div class="post-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="post-content">
+                                <div class="post-header">
+                                    <h4>Fun English games for kids</h4>
+                                    <span class="post-date">1 day ago</span>
+                                </div>
+                                <p>My 8-year-old is learning English. What are some fun games or activities we can do together to practice?</p>
+                                <div class="post-meta">
+                                    <span><i class="far fa-comment"></i> 7 replies</span>
+                                    <span><i class="far fa-eye"></i> 32 views</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gamification -->
+    <section class="gamification-section">
+        <div class="container">
+            <h2 class="section-title">Track Your Progress & Earn Rewards</h2>
+            
+            <div class="gamification-container">
+                <div class="achievements">
+                    <h3>Your Achievements</h3>
+                    <div class="badges-container">
+                        <div class="badge earned">
+                            <div class="badge-icon">
+                                <i class="fas fa-book"></i>
+                            </div>
+                            <div class="badge-info">
+                                <h4>First Lesson</h4>
+                                <p>Completed your first lesson</p>
+                            </div>
+                        </div>
+                        <div class="badge earned">
+                            <div class="badge-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="badge-info">
+                                <h4>Chatterbox</h4>
+                                <p>Participated in 5 forum discussions</p>
+                            </div>
+                        </div>
+                        <div class="badge locked">
+                            <div class="badge-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div class="badge-info">
+                                <h4>Quiz Master</h4>
+                                <p>Score 100% on 5 quizzes</p>
+                            </div>
+                        </div>
+                        <div class="badge locked">
+                            <div class="badge-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="badge-info">
+                                <h4>Perfect Attendance</h4>
+                                <p>Attend 10 live classes in a row</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="leaderboard">
+                    <h3>Leaderboard</h3>
+                    <div class="leaderboard-list">
+                        <div class="leaderboard-item top">
+                            <div class="rank">1</div>
+                            <div class="user">
+                                <div class="user-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="user-info">
+                                    <h4>Sarah Johnson</h4>
+                                    <p>Sales Professional</p>
+                                </div>
+                            </div>
+                            <div class="points">1,250 pts</div>
+                        </div>
+                        <div class="leaderboard-item">
+                            <div class="rank">2</div>
+                            <div class="user">
+                                <div class="user-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="user-info">
+                                    <h4>Michael Chen</h4>
+                                    <p>Student</p>
+                                </div>
+                            </div>
+                            <div class="points">980 pts</div>
+                        </div>
+                        <div class="leaderboard-item">
+                            <div class="rank">3</div>
+                            <div class="user">
+                                <div class="user-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="user-info">
+                                    <h4>Priya Sharma</h4>
+                                    <p>Teacher</p>
+                                </div>
+                            </div>
+                            <div class="points">875 pts</div>
+                        </div>
+                        <div class="leaderboard-item current-user">
+                            <div class="rank">12</div>
+                            <div class="user">
+                                <div class="user-avatar">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="user-info">
+                                    <h4>You</h4>
+                                    <p>Beginner</p>
+                                </div>
+                            </div>
+                            <div class="points">320 pts</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>EnglishPro</h3>
+                    <p>Making English learning accessible, fun and effective for everyone.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#modules">Courses</a></li>
+                        <li><a href="#live-classes">Live Classes</a></li>
+                        <li><a href="#subscription">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> support@englishpro.com</li>
+                        <li><i class="fas fa-phone"></i> +91 98765 43210</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Mumbai, India</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 EnglishPro. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
